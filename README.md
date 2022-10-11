@@ -1,2 +1,2 @@
 # blogpessoal
-Projeto de bloco pessoal
+Projeto de blog pessoal
