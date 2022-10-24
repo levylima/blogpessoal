@@ -18,6 +18,7 @@ export class Postagem {
     @Column({length: 1000, nullable: false})
     text: string;
     //
+
     @UpdateDateColumn()
     data: Date;
 

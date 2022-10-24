@@ -10,7 +10,7 @@ import { Usuario } from "../entities/usuario.entity";
 export class UsuarioService {
 
     constructor (
-        @InjectRepository(Usuario)
+        @InjectRepository (Usuario)
         private usuarioRepository: Repository<Usuario>,
         private bcrypt: Bcrypt
     ) {}

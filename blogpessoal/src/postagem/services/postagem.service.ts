@@ -8,7 +8,7 @@ import { Postagem } from "../entities/postagem.entity";
 export class PostagemService {
     constructor (
         @InjectRepository(Postagem)
-        private postagemRepository: Repository<Postagem>
+        private postagemRepository: Repository <Postagem>
     ){}
 
 async findAll (): Promise<Postagem[]> {
