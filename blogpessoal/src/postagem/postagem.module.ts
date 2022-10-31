@@ -6,8 +6,8 @@ import { PostagemService } from "./services/postagem.service";
 
 @Module({
     imports: [TypeOrmModule.forFeature([Postagem])],
-    providers: [PostagemService],
-    controllers: [PostagemController],
+    providers: [],
+    controllers: [],
     exports: [TypeOrmModule]
 })
 export class PostagemModule {}
