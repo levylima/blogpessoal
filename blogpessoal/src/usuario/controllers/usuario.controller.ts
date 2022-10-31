@@ -38,5 +38,4 @@ export class UsuarioController {
 
         return await this.usuarioService.update(usuario);
     }
-
 }
